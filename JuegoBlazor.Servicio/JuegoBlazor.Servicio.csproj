@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JuegoBlazor.DTO\JuegoBlazor.DTO.csproj" />
+    <ProjectReference Include="..\JuegoBlazor.Modelo\JuegoBlazor.Modelo.csproj" />
+    <ProjectReference Include="..\JuegoBlazor.Repositorio\JuegoBlazor.Repositorio.csproj" />
+    <ProjectReference Include="..\JuegoBlazor.Utilidades\JuegoBlazor.Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>
